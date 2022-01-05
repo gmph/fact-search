@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://cdn.glitch.com/f6a3e883-1b7e-42f8-af68-9871a41d3698%2Ficon.png?v=1592150866013"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://cdn.glitch.com/f6a3e883-1b7e-42f8-af68-9871a41d3698%2Ficon.png?v=1592150866013"
+      type="image/png"
+    />
+    <title>Fact Search</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script language="javascript" src="/search.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <a class="logo" href="/">
+        <img
+          src="https://cdn.glitch.com/f6a3e883-1b7e-42f8-af68-9871a41d3698%2Ficon.png?v=1592150866013"
+        />
+        <h1>Fact Search</h1>
+      </a>
+      <p>
+        Search articles from trusted non-partisan fact-checkers, certified by
+        the
+        <a href="https://www.poynter.org/ifcn/" target="_blank"
+          >International Fact-Checking Network</a
+        >
+      </p>
+    </div>
+    <div class="search-bar">
+      <div class="search-inputs">
+        <input
+          id="search-string"
+          type="text"
+          placeholder="Enter a topic or quote"
+        />
+        <input id="search-year" type="number" placeholder="Year" min="1970" />
+      </div>
+      <button id="search-submit" disabled>
+        Search
+      </button>
+    </div>
+    <div id="results" class="results">
+      <div
+        class="gcse-searchresults-only"
+        data-webSearchResultSetSize="large"
+        data-defaultToRefinement="Trusted fact checkers"
+      ></div>
+    </div>
+    <br />
+    <hr />
+    <br />
+    <p class="examples">
+      Examples:
+      <i
+        ><a href="/?string=hydroxychloroquine&year=2020&redirect=1"
+          >hydroxychloroquine – 2020</a
+        ></i
+      >
+      <i
+        ><a href="/?string=biden%20against%20iraq&year=2019&redirect=1"
+          >biden against iraq – 2019</a
+        ></i
+      >
+      <i
+        ><a href="/?string=trump%20bleach&year=2020&redirect=1"
+          >trump bleach – 2020</a
+        ></i
+      >
+      <i
+        ><a href="/?string=london%20riots&year=2012&redirect=1"
+          >london riots – 2012</a
+        ></i
+      >
+      <i
+        ><a href="/?string=antifa%20black%20lives%20matter&year=2020&redirect=1"
+          >antifa black lives matter – 2020</a
+        ></i
+      >
+      <i
+        ><a href="/?string=police%20looting%20Minneapolis&year=2020&redirect=1"
+          >police looting Minneapolis – 2020</a
+        ></i
+      >
+    </p>
+    <br />
+    <p class="info">
+      <a
+        href="https://ifcncodeofprinciples.poynter.org/signatories"
+        target="_blank"
+        >See&nbsp;All&nbsp;Fact-checkers</a
+      >
+      ·
+      <a
+        href="https://www.poynter.org/ifcn-fact-checkers-code-of-principles/"
+        target="_blank"
+        >Fact-checker&nbsp;Principles</a
+      >
+      · Created&nbsp;by&nbsp;<a href="https://twitter.com/gmph"
+        >Graham&nbsp;Macphee</a
+      >
+    </p>
+    <script
+      async
+      src="https://cse.google.com/cse.js?cx=012266264044869783703:jqpelb7ouok"
+    ></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-SQVT1YJN1Y"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-SQVT1YJN1Y");
+    </script>
+  </body>
+</html>
